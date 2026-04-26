@@ -43,12 +43,12 @@ static constexpr DeviceDriverType VALID_DRIVER_TYPES[] = {
     DeviceDriverType::WEBAPP,
 
 #else // MAX_GAMEPADS == 1
+    DeviceDriverType::PS3,
     DeviceDriverType::XBOXOG, 
     DeviceDriverType::XBOXOG_SB, 
     DeviceDriverType::DINPUT, 
     DeviceDriverType::SWITCH, 
     DeviceDriverType::WEBAPP,
-    DeviceDriverType::PS3,
     DeviceDriverType::PSCLASSIC, 
     DeviceDriverType::XINPUT,
     #if defined(XREMOTE_ROM_AVAILABLE)
